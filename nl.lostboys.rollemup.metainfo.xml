@@ -3,7 +3,7 @@
   <id>nl.lostboys.rollemup</id>
   <launchable type="desktop-id">nl.lostboys.rollemup.desktop</launchable>
   <metadata_license>CC0-1.0</metadata_license>
-  <project_license>proprietary</project_license>
+  <project_license>LicenseRef-proprietary</project_license>
   <releases>
     <release version="1" date="1998-11-13" />
   </releases>
