@@ -45,7 +45,7 @@ modules:
         - tar -xf Rollemup.tar.gz --strip-components=1
         - rm -fr Rollemup.tar.gz Games Upload
       - type: extra-data
-        url: https://www.pro-linux.de/files/rollemup/Rollemup.tar.gz
+        url: https://nycdn.netbsd.org/pub/pkgsrc/distfiles/Rollemup.tar.gz
         filename: Rollemup.tar.gz
         sha256: 3419c7b170d24e6c33ef583f8cab7003199cd594ce9d3a3f3e8a8607184ea272
         size: 20155934
