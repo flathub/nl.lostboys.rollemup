@@ -42,17 +42,17 @@ modules:
       - type: script
         dest-filename: apply_extra
         commands:
-        - tar -xf Rollemup.tar.gz --strip-components=1
-        - rm -fr Rollemup.tar.gz Games Upload
+          - tar -xf Rollemup.tar.gz --strip-components=1
+          - rm -fr Rollemup.tar.gz Games Upload
       - type: extra-data
         url: https://nycdn.netbsd.org/pub/pkgsrc/distfiles/Rollemup.tar.gz
         filename: Rollemup.tar.gz
-        sha256: 3419c7b170d24e6c33ef583f8cab7003199cd594ce9d3a3f3e8a8607184ea272
-        size: 20155934
+        sha256: 48dc58a17ef708199f55ebe172dedac1c28c040c46f61d3a4f1e6ba79c3867e9
+        size: 3721
         installed-size: 36364068
     build-commands:
       - install -D apply_extra /app/bin/apply_extra
-  
+
   - name: extra-files
     buildsystem: simple
     sources:
