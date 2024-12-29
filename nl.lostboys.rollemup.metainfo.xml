@@ -9,6 +9,9 @@
   </releases>
   <name>Roll 'm Up</name>
   <summary>Classic pinball game from late 90s.</summary>
+  <developer id="nl.lostboys">
+    <name>Lost Boys</name>
+  </developer>
   <content_rating type="oars-1.1">
     <content_attribute id="drugs-alcohol">mild</content_attribute>
     <content_attribute id="money-advertising">moderate</content_attribute>

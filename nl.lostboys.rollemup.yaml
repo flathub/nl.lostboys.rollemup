@@ -70,6 +70,6 @@ modules:
     build-commands:
       - install -D rollemup-launcher.sh /app/bin/rollemup
       - install -D fake-netscape.sh /app/bin/netscape
-      - install -D nl.lostboys.rollemup.png /app/share/icons/nl.lostboys.rollemup.png
+      - install -D nl.lostboys.rollemup.png /app/share/icons/hicolor/256x256/apps/nl.lostboys.rollemup.png
       - install -D nl.lostboys.rollemup.desktop /app/share/applications/nl.lostboys.rollemup.desktop
       - install -D nl.lostboys.rollemup.metainfo.xml /app/share/metainfo/nl.lostboys.rollemup.metainfo.xml
