@@ -1,6 +1,6 @@
 app-id: nl.lostboys.rollemup
 runtime: org.freedesktop.Platform
-runtime-version: '22.08'
+runtime-version: '24.08'
 sdk: org.freedesktop.Sdk
 command: rollemup
 
@@ -14,7 +14,7 @@ finish-args:
 add-extensions:
   org.freedesktop.Platform.Compat.i386:
     directory: lib/i386-linux-gnu
-    version: '22.08'
+    version: '24.08'
 
 modules:
   - name: platform-bootstrap
