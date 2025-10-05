@@ -1,6 +1,6 @@
 app-id: nl.lostboys.rollemup
 runtime: org.freedesktop.Platform
-runtime-version: '24.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 command: rollemup
 
@@ -14,7 +14,7 @@ finish-args:
 add-extensions:
   org.freedesktop.Platform.Compat.i386:
     directory: lib/i386-linux-gnu
-    version: '24.08'
+    version: '25.08'
 
 modules:
   - name: platform-bootstrap
@@ -25,8 +25,8 @@ modules:
   - name: xprop
     sources:
       - type: archive
-        url: https://xorg.freedesktop.org/archive/individual/app/xprop-1.2.5.tar.gz
-        sha256: b7bf6b6be6cf23e7966a153fc84d5901c14f01ee952fbd9d930aa48e2385d670
+        url: https://xorg.freedesktop.org/archive/individual/app/xprop-1.2.8.tar.gz
+        sha256: a8394338c99775160d733d54d73cdcdc5c9c80a0dc8cffd5be1b7c977254b745
 
   - name: ancient-libstdc++
     buildsystem: simple
