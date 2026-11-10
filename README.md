@@ -54,3 +54,5 @@ Resources
 - https://aur.archlinux.org/packages/rollemup/
 - https://www.pro-linux.de/artikel/2/1663/roll39m-up-ein-altes-flipperspiel-neu-entdeckt.html
 - https://web.archive.org/web/20080613193931/https://www.jmurray.id.au/rollem.html
+- https://web.archive.org/web/20001204033400/http://www.medialab.lostboys.nl/projects/madewith/pinball/pinballgame.html
+- https://web.archive.org/web/20001109060200/http://www.dommelsch.nl/flipper/flipper.html
