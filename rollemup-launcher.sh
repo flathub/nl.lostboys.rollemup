@@ -16,13 +16,6 @@ ln -s $data_dir/Rollemup.ini .
 # Needed for "fake-netscape.sh" script.
 mkdir Upload
 
-# Titlebar with dark background and application name.
-timeout 3 sh -c '
-    until xprop -name "./Rollemup" 2> /dev/null > /dev/null; do sleep 0.01; done;
-    xprop -name "./Rollemup" -f _GTK_THEME_VARIANT 8u -set _GTK_THEME_VARIANT dark;
-    xprop -name "./Rollemup" -set WM_NAME "Roll '\''m Up";
-' &
-
 # Compatibility with PulseAudio.
 export LD_PRELOAD="$LD_PRELOAD /app/lib/i386-linux-gnu/pulseaudio/libpulsedsp.so"
 export PADSP_CLIENT_NAME="Roll 'm Up"
