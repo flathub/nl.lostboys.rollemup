@@ -9,7 +9,6 @@ finish-args:
   - --share=ipc
   - --socket=pulseaudio
   - --allow=multiarch
-  - --talk-name=org.freedesktop.Notifications
 
 add-extensions:
   org.freedesktop.Platform.Compat.i386:
@@ -21,12 +20,6 @@ modules:
     buildsystem: simple
     build-commands:
       - mkdir -p /app/lib/i386-linux-gnu
-
-  - name: xprop
-    sources:
-      - type: archive
-        url: https://xorg.freedesktop.org/archive/individual/app/xprop-1.2.8.tar.gz
-        sha256: a8394338c99775160d733d54d73cdcdc5c9c80a0dc8cffd5be1b7c977254b745
 
   - name: ancient-libstdc++
     buildsystem: simple
